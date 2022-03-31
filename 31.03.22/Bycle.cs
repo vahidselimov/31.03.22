@@ -10,10 +10,16 @@ namespace _31._03._22
         {
 
         }
-        public override void Info()
+        public override void info()
         {
-
-            Console.WriteLine($"Bycle brand: {Brand}, Bycle color: {Color}.");
+            Console.WriteLine($"Bycle brand: {Brand}, Bycle color: {Color}");
         }
+        public void Drive()
+        {
+            Console.WriteLine("Qəth ediləcək KM-i qeyd edin");
+            double PassMill = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine($"Qəth edilən KM:{PassMill}");
+        }
+
     }
 }

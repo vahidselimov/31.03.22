@@ -22,7 +22,7 @@ namespace _31._03._22
             Color = color;
 
         }
-        public virtual void Info()
+        public virtual void info()
         {
 
         }
