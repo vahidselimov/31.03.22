@@ -9,7 +9,7 @@ namespace _31._03._22
             Console.Write("Zəhmət olmasa Maşın  sayını  qeyd edin : ");
             int Carsize = Convert.ToInt32(Console.ReadLine());
 
-            //Car[] cars = new Car[Carsize];
+           
             Carlist carlist = new Carlist();
 
             for (int i = 0; i < Carsize; i++)
